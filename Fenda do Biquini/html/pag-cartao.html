@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>PAGAMENTO</title>
+  <script src="../js/index.js"></script>
+  <link rel="stylesheet" type="text/css" href="../style/pagamento.css"></link>
+  <link rel="stylesheet" type="text/css" href="../style/style.css"></link>
+  <link rel="stylesheet" href="../style/fontawesome-free-web/css/all.css" >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap" rel="stylesheet">
+
+  
+
+</head>
+<body>
+  
+  <header class="header-top">
+      <img src="../img/TINKY.png" alt="Logomarca" class="logo">
+          
+      <div class="menu">
+          <button class="menu-botao">
+              <img src="../img/menu-aberto.png" class="hamburger" />
+          </button>
+              <div class="menu-conteudo">
+                <div class="part_index">
+                    <a href="../index.html">Página inicial</a>
+                  <div class="part_carrinho">
+                      <a href="../html/carrinho.html">Carrinho</a>
+                  </div>
+      </div>
+      
+
+  </header>
+
+  <form id="pag-jeito" class="caixa">
+    <div class="pagamento">
+        <h1>Preencha as informações a seguir</h1>
+        <br><br>
+        <input type="text" name="nome" placeholder="Títular do cartão"><br>
+        <br><br>
+        <input type="text" name="cpf" placeholder="CPF"><br>
+        <br><br>
+        <input type="text" name="numero" placeholder="Número do cartão"><br>
+        <br><br>
+        <input type="text" name="cvv" placeholder="CVV"><br>
+        <br><br>
+        Vencimento do cartão<br>
+        <input type="date" name="vencimento" placeholder="Data de validade">
+
+        <br><br><br>
+        <button type="button" id="botao-finalizar" onclick="location.href='../html/compra-realizada.html'">Finalizar!</button>
+    </div>
+  </form>
+    
+</html>
