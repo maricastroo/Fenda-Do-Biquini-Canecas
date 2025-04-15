@@ -30,10 +30,10 @@ Desenvolver um site completo de e-commerce fictício utilizando habilidades adqu
 
 ## Estrutura do Projeto
 
+Estrutura do Projeto
+```
 /Fenda do Biquini
-│
 ├── index.html                 # Página principal (abertura do site)
-│
 ├── style/                     # Estilos CSS
 │   ├── style.css              # Página principal
 │   ├── pag-adm.css            # Design página do admin
@@ -42,7 +42,7 @@ Desenvolver um site completo de e-commerce fictício utilizando habilidades adqu
 │   ├── pagamento.css          # Design página de pagamento
 │   ├── cadastro.css           # Design de cadastro de pessoas
 │   └── apagar.css             # Design página de exclusão
-│
+
 ├── html/                      # Outras páginas HTML
 │   ├── piques.html            # Página com QR code (fictício) do Pix
 │   ├── carrinho.html          # Página do carrinho
@@ -52,10 +52,10 @@ Desenvolver um site completo de e-commerce fictício utilizando habilidades adqu
 │   ├── compra-realizada.html  # Página que informa compra realizada
 │   ├── pag-adm.html           # Página do administrador
 │   └── excluir.html           # Página de exclusão
-│
+
 ├── img/                       # Imagens utilizadas no site
 │   └── (canecas, personagens, ícones, etc.)
-│
+
 ├── js/                        # Scripts JavaScript
 │   ├── carrinho.js            # Script do carrinho
 │   ├── buscarcarrinho.js      # Script para buscar carrinho
@@ -63,15 +63,15 @@ Desenvolver um site completo de e-commerce fictício utilizando habilidades adqu
 │   ├── buscar.js              # Script para buscar itens
 │   ├── excluir.js             # Script para excluir itens
 │   └── cadastrar.js           # Script de cadastro
-│
-└── php/                       # Arquivos PHP responsáveis pelo backend
-|   ├── carrinho.php
-|   ├── buscarcarrinho.php
-|   ├── index.php
-|   ├── buscar.php
-|   ├── excluir.php
-|   └── cadastrar.php
 
+└── php/                       # Arquivos PHP responsáveis pelo backend
+    ├── carrinho.php
+    ├── buscarcarrinho.php
+    ├── index.php
+    ├── buscar.php
+    ├── excluir.php
+    └── cadastrar.php
+```
 
 ---
 
@@ -111,6 +111,8 @@ O banco de dados se chama `bob_esponja` e contém as seguintes tabelas principai
 ## Desenvolvido por
 
 Mariana de Castro e Tarso Bertolini
+
+
 Projeto fictício desenvolvido como atividade acadêmica para prática das tecnologias web front-end e back-end.
 
 
